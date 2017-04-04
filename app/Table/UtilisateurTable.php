@@ -39,5 +39,6 @@ class UtilisateurTable extends Table // Table == Core\Table\Table
 									", [$id]);
 	}
 
+
 }
 ?>

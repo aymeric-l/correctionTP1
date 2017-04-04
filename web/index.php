@@ -31,10 +31,18 @@ if ($page==='home') {
 	require ROOT.'/pages/users/login.php';
 }elseif ($page==='Disconnect') {
 	require ROOT.'/pages/users/disconnect.php';
+}elseif ($page==='tp2.info') {
+	require ROOT.'/pages/tp2/info.php';
+}elseif ($page==='tp2.add') {
+	require ROOT.'/pages/tp2/add.php';
+}elseif ($page==='tp2.addCredit') {
+	require ROOT.'/pages/tp2/addCredit.php';
 }elseif ($page==='403') {
 	require ROOT.'/pages/errors/403.php';
+}elseif ($page==='tp2') {
+	require ROOT.'/pages/tp2/index.php';
 }else{ // page 404
 	require ROOT.'/pages/errors/404.php';
 }
 $content = ob_get_clean();
-require ROOT.'/pages/templates/default.php'; 
+require ROOT.'/pages/templates/default.php';
